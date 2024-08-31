@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+header{
+    background-color: #008080;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+header nav h1 {
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+main{
+    min-height: 78.5vh;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+main form{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+main form input[type="text"],
+main form button{
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+main form button{
+    margin-left: 10px;
+    background-color: #008080;
+    color: #fff;
+    cursor: pointer;
+}
+main form input[type="text"] {
+    flex-grow: 1;
+}
+footer {
+    background-color: #008080;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+}
